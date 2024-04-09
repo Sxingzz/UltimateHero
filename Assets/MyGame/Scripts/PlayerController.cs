@@ -174,16 +174,8 @@ public class PlayerController : MonoBehaviour
             playerRB.velocity = Vector2.zero;
         }
 
-
-
-
-
-
         // check is on ground
         isOnGround = Physics2D.OverlapCircle(groundCheckPoint.position, 0.2f, groundLayer);
-
-
-
 
         // Animation
         // standing state
